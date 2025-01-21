@@ -1,0 +1,12 @@
+{
+    "name": "JavaScript Calculator",
+    "dockerFile": "Dockerfile",
+    "context": "..",
+    "customizations": {
+      "vscode": {
+        "extensions": ["dbaeumer.vscode-eslint"]
+      }
+    },
+    "postCreateCommand": "npm install"
+  }
+  
